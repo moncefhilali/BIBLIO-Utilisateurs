@@ -1,0 +1,11 @@
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\bin\Debug\net7.0\Utilisateurs.Infrastructure.deps.json
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\bin\Debug\net7.0\Utilisateurs.Infrastructure.dll
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\bin\Debug\net7.0\Utilisateurs.Infrastructure.pdb
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\obj\Debug\net7.0\Utilisateurs.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\obj\Debug\net7.0\Utilisateurs.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\obj\Debug\net7.0\Utilisateurs.Infrastructure.AssemblyInfo.cs
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\obj\Debug\net7.0\Utilisateurs.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\obj\Debug\net7.0\Utilisateurs.Infrastructure.dll
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\obj\Debug\net7.0\refint\Utilisateurs.Infrastructure.dll
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\obj\Debug\net7.0\Utilisateurs.Infrastructure.pdb
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Infrastructure\obj\Debug\net7.0\ref\Utilisateurs.Infrastructure.dll
