@@ -1,6 +1,4 @@
-﻿using Utilisateurs.Domain.Entities;
-
-namespace Utilisateurs.Domain.DTOs.UtilisateurDTOs
+﻿namespace Utilisateurs.Domain.DTOs.UtilisateurDTOs
 {
     public class UpdateUtilisateurDTO
     {
@@ -11,6 +9,5 @@ namespace Utilisateurs.Domain.DTOs.UtilisateurDTOs
         public string Rue { get; set; }
         public string Quartier { get; set; }
         public bool? JobInTech { get; set; }
-        public virtual ICollection<UtilisateurRole> UtilisateurRole { get; set; }
     }
 }

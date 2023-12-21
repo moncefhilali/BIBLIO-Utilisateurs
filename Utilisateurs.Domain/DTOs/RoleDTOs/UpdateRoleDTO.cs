@@ -2,5 +2,6 @@
 {
     public class UpdateRoleDTO
     {
+        public string Nom { get; set; }
     }
 }

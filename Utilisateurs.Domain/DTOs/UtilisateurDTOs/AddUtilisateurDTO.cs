@@ -1,6 +1,4 @@
-﻿using Utilisateurs.Domain.Entities;
-
-namespace Utilisateurs.Domain.DTOs.UtilisateurDTOs
+﻿namespace Utilisateurs.Domain.DTOs.UtilisateurDTOs
 {
     public class AddUtilisateurDTO
     {

@@ -1,6 +1,7 @@
 ﻿namespace Utilisateurs.Domain.DTOs.RoleDTOs
 {
-    internal class AddRoleDTO
+    public class AddRoleDTO
     {
+        public string Nom { get; set; }
     }
 }

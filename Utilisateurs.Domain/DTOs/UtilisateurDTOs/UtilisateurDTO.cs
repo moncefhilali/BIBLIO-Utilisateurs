@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using Utilisateurs.Domain.Entities;
+﻿using Utilisateurs.Domain.Entities;
 
 namespace Utilisateurs.Domain.DTOs.UtilisateurDTOs
 {

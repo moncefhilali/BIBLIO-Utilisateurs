@@ -7,7 +7,7 @@ namespace Utilisateurs.Application.Handlers
 {
     public class GetAllUtilisateurHandler : IRequestHandler<GetAllUtilisateurQuery, List<Utilisateur>>
     {
-        private readonly IUtilisateurRepository _repository;
+        private readonly IGenericRepository<Utilisateur> _repository;
         public GetAllUtilisateurHandler(IUtilisateurRepository repository)
         {
             _repository = repository;
@@ -15,7 +15,8 @@ namespace Utilisateurs.Application.Handlers
 
         public async Task<List<Utilisateur>> Handle(GetAllUtilisateurQuery request, CancellationToken cancellationToken)
         {
-            return await _repository.GetAllAsync();
+            var utilisateurs = await _repository.GetAllAsync();
+            return utilisateurs;
         }
     }
 }
