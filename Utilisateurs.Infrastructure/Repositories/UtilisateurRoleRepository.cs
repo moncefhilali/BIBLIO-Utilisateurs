@@ -3,10 +3,11 @@ using Utilisateurs.Domain.Interfaces;
 
 namespace Utilisateurs.Infrastructure.Repositories
 {
-    public class UtilisateurRepository : GenericRepository<Utilisateur>, IUtilisateurRepository
+    public class UtilisateurRoleRepository : GenericRepository<UtilisateurRole>, IUtilisateurRoleRepository
     {
-        public UtilisateurRepository(DBC dbc) : base(dbc) { }
+        public UtilisateurRoleRepository(DBC dbc) : base(dbc) { }
 
         // Additional Methods
+
     }
 }

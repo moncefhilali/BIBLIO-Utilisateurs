@@ -3,9 +3,9 @@ using Utilisateurs.Domain.Interfaces;
 
 namespace Utilisateurs.Infrastructure.Repositories
 {
-    public class UtilisateurRepository : GenericRepository<Utilisateur>, IUtilisateurRepository
+    public class RoleRepository : GenericRepository<Role>, IRoleRepository
     {
-        public UtilisateurRepository(DBC dbc) : base(dbc) { }
+        public RoleRepository(DBC dbc) : base(dbc) { }
 
         // Additional Methods
     }
