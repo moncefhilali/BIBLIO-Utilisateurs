@@ -2,7 +2,7 @@
 
 namespace Utilisateurs.Domain.Interfaces
 {
-    public interface IRoleRepository : IGenericRepository<Role>
+    public interface IUtilisateurRoleRepository : IGenericRepository<UtilisateurRole>
     {
         // Additional Methods
     }
