@@ -1,13 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5ifbmLV4X4FkkPx77BeDwDoEz6pw+bSl0DECH6Cac/X8B3ILlQANeG/CiriKt6FaSrcw2TDaJ2f6PRlQ1f3ww==",
+  "dgSpecHash": "plAeSNDLPfEt/fxJFIqcM5mgjQxBZiwO9gHTetRVAe8FSAljAZRk1BLCpQ53wavHD8NcKnZqECsjHt9TFE3bzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Application\\Utilisateurs.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\monce\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\monce\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\monce\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\monce\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\monce\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-    "C:\\Users\\monce\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\monce\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\monce\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\monce\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\monce\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\monce\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

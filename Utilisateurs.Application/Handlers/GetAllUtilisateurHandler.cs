@@ -1,22 +1,26 @@
-﻿using MediatR;
+﻿using AutoMapper;
+using MediatR;
 using Utilisateurs.Application.Queries;
+using Utilisateurs.Domain.DTOs.UtilisateurDTOs;
 using Utilisateurs.Domain.Entities;
 using Utilisateurs.Domain.Interfaces;
 
 namespace Utilisateurs.Application.Handlers
 {
-    public class GetAllUtilisateurHandler : IRequestHandler<GetAllUtilisateurQuery, List<Utilisateur>>
+    public class GetAllUtilisateurHandler : IRequestHandler<GetAllUtilisateurQuery, List<UtilisateurDTO>>
     {
         private readonly IGenericRepository<Utilisateur> _repository;
-        public GetAllUtilisateurHandler(IUtilisateurRepository repository)
+        private readonly IMapper _mapper;
+        public GetAllUtilisateurHandler(IUtilisateurRepository repository, IMapper mapper)
         {
             _repository = repository;
+            _mapper = mapper;
         }
 
-        public async Task<List<Utilisateur>> Handle(GetAllUtilisateurQuery request, CancellationToken cancellationToken)
+        public async Task<List<UtilisateurDTO>> Handle(GetAllUtilisateurQuery request, CancellationToken cancellationToken)
         {
             var utilisateurs = await _repository.GetAllAsync();
-            return utilisateurs;
+            return _mapper.Map<List<UtilisateurDTO>>(utilisateurs);
         }
     }
 }
