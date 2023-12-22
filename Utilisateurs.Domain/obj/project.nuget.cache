@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mXI0DTBkxiAyBCIuMjo0fDEO6WiGTfTvb8GBkkm8O3ez2ONwcC9UD2aNCVIgYTB3aKQIdpohFywqcjwAbUdxBQ==",
+  "dgSpecHash": "VNIoVJtlPg/PUv0vlsafjO/DUlWljew3+qqyJ4NYT6kpSqjb6gtc0+3hxP1KnH+fQGWlS2QSqin/iz0I336G0A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Domain\\Utilisateurs.Domain.csproj",
+  "projectFilePath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO-Utilisateurs\\Utilisateurs.Domain\\Utilisateurs.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monce\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\monce\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

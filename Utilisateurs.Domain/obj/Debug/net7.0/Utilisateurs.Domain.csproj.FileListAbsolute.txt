@@ -10,3 +10,15 @@ C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-Rea
 C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\refint\Utilisateurs.Domain.dll
 C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\Utilisateurs.Domain.pdb
 C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO.Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\ref\Utilisateurs.Domain.dll
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\bin\Debug\net7.0\Utilisateurs.Domain.deps.json
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\bin\Debug\net7.0\Utilisateurs.Domain.dll
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\bin\Debug\net7.0\Utilisateurs.Domain.pdb
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\Utilisateurs.Domain.csproj.AssemblyReference.cache
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\Utilisateurs.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\Utilisateurs.Domain.AssemblyInfoInputs.cache
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\Utilisateurs.Domain.AssemblyInfo.cs
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\Utilisateurs.Domain.csproj.CoreCompileInputs.cache
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\Utilisateurs.Domain.dll
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\refint\Utilisateurs.Domain.dll
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\Utilisateurs.Domain.pdb
+C:\Users\monce\OneDrive\Desktop\Self Taught\Bootcamps\1- UIR Full Stack .Net-React\.NET\Projects\BIBLIO\BIBLIO-Utilisateurs\Utilisateurs.Domain\obj\Debug\net7.0\ref\Utilisateurs.Domain.dll
