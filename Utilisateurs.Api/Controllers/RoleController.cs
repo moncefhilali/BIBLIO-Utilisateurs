@@ -1,8 +1,7 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Utilisateurs.Application.Queries;
-
+using Utilisateurs.Application.Roles.Queries;
+using Utilisateurs.Application.Roles.Commands;
 namespace Utilisateurs.Api.Controllers
 {
     [Route("api/[controller]")]
@@ -19,6 +18,13 @@ namespace Utilisateurs.Api.Controllers
         public async Task<ActionResult> GetAll()
         {
             var result = await _mediator.Send(new GetAllRoleQuery());
+            return Ok(result);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Create([FromBody] CreateRoleCommand role)
+        {
+            var result = await _mediator.Send(role);
             return Ok(result);
         }
     }

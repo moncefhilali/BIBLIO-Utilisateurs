@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using MediatR;
-using Utilisateurs.Application.Queries;
-using Utilisateurs.Domain.DTOs.RoleDTOs;
 using Utilisateurs.Domain.Interfaces;
+using Utilisateurs.Application.Roles.Queries;
+using Utilisateurs.Application.ViewModels;
 
-namespace Utilisateurs.Application.Handlers
+namespace Utilisateurs.Application.Roles.Queries
 {
-    public class GetAllRoleQueryHandler : IRequestHandler<GetAllRoleQuery, List<RoleDTO>>
+    public class GetAllRoleQueryHandler : IRequestHandler<GetAllRoleQuery, List<RoleViewModel>>
     {
         private readonly IRoleRepository _roleRepository;
         private readonly IMapper _mapper;
@@ -16,10 +16,10 @@ namespace Utilisateurs.Application.Handlers
             _mapper = mapper;
         }
 
-        public async Task<List<RoleDTO>> Handle(GetAllRoleQuery request, CancellationToken cancellationToken)
+        public async Task<List<RoleViewModel>> Handle(GetAllRoleQuery request, CancellationToken cancellationToken)
         {
             var roles = await _roleRepository.GetAllAsync();
-            return _mapper.Map<List<RoleDTO>>(roles);
+            return _mapper.Map<List<RoleViewModel>>(roles);
         }
     }
 }

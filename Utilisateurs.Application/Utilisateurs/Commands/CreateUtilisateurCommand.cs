@@ -1,10 +1,10 @@
-﻿using Utilisateurs.Domain.Entities;
+﻿using MediatR;
+using Utilisateurs.Application.ViewModels;
 
-namespace Utilisateurs.Domain.DTOs.UtilisateurDTOs
+namespace Utilisateurs.Application.Utilisateurs.Commands
 {
-    public class UtilisateurDTO
+    public class CreateUtilisateurCommand : IRequest<UtilisateurViewModel>
     {
-        public int Id { get; set; }
         public string Nom { get; set; }
         public string Email { get; set; }
         public string Ecole { get; set; }
@@ -12,6 +12,6 @@ namespace Utilisateurs.Domain.DTOs.UtilisateurDTOs
         public string Rue { get; set; }
         public string Quartier { get; set; }
         public bool? JobInTech { get; set; }
-        public virtual ICollection<UtilisateurRole> UtilisateurRole { get; set; }
+
     }
 }

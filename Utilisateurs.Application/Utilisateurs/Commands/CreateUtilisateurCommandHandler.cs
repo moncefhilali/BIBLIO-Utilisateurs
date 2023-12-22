@@ -1,13 +1,12 @@
 ﻿using AutoMapper;
 using MediatR;
-using Utilisateurs.Application.Commands;
-using Utilisateurs.Domain.DTOs.UtilisateurDTOs;
+using Utilisateurs.Application.ViewModels;
 using Utilisateurs.Domain.Entities;
 using Utilisateurs.Domain.Interfaces;
 
-namespace Utilisateurs.Application.Handlers
+namespace Utilisateurs.Application.Utilisateurs.Commands
 {
-    public class CreateUtilisateurCommandHandler : IRequestHandler<CreateUtilisateurCommand, UtilisateurDTO>
+    public class CreateUtilisateurCommandHandler : IRequestHandler<CreateUtilisateurCommand, UtilisateurViewModel>
     {
         private readonly IUtilisateurRepository _repository;
         private readonly IMapper _mapper;
@@ -17,11 +16,11 @@ namespace Utilisateurs.Application.Handlers
             _mapper = mapper;
         }
 
-        public async Task<UtilisateurDTO> Handle(CreateUtilisateurCommand request, CancellationToken cancellationToken)
+        public async Task<UtilisateurViewModel> Handle(CreateUtilisateurCommand request, CancellationToken cancellationToken)
         {
-            var utilisateur = _mapper.Map<Utilisateur>(request.NewUtilisateur);
+            var utilisateur = _mapper.Map<Utilisateur>(request);
             var createUtilisateur = await _repository.PostAsync(utilisateur);
-            return _mapper.Map<UtilisateurDTO>(createUtilisateur);
+            return _mapper.Map<UtilisateurViewModel>(createUtilisateur);
         }
     }
 }

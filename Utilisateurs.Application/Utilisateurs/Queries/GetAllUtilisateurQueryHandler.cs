@@ -1,12 +1,11 @@
 ﻿using AutoMapper;
 using MediatR;
-using Utilisateurs.Application.Queries;
-using Utilisateurs.Domain.DTOs.UtilisateurDTOs;
 using Utilisateurs.Domain.Interfaces;
+using Utilisateurs.Application.ViewModels;
 
-namespace Utilisateurs.Application.Handlers
+namespace Utilisateurs.Application.Utilisateurs.Queries
 {
-    public class GetAllUtilisateurQueryHandler : IRequestHandler<GetAllUtilisateurQuery, List<UtilisateurDTO>>
+    public class GetAllUtilisateurQueryHandler : IRequestHandler<GetAllUtilisateurQuery, List<UtilisateurViewModel>>
     {
         private readonly IUtilisateurRepository _repository;
         private readonly IMapper _mapper;
@@ -16,10 +15,10 @@ namespace Utilisateurs.Application.Handlers
             _mapper = mapper;
         }
 
-        public async Task<List<UtilisateurDTO>> Handle(GetAllUtilisateurQuery request, CancellationToken cancellationToken)
+        public async Task<List<UtilisateurViewModel>> Handle(GetAllUtilisateurQuery request, CancellationToken cancellationToken)
         {
             var utilisateurs = await _repository.GetAllAsync();
-            return _mapper.Map<List<UtilisateurDTO>>(utilisateurs);
+            return _mapper.Map<List<UtilisateurViewModel>>(utilisateurs);
         }
     }
 }

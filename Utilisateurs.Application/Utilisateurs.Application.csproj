@@ -11,11 +11,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <Folder Include="UtilisateurRoles\Commands\" />
+    <Folder Include="UtilisateurRoles\Queries\" />
   </ItemGroup>
 
-	<ItemGroup>
-		<Folder Include="Commands\" />
-	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
 
 </Project>

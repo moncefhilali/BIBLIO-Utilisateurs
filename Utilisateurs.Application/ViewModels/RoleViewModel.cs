@@ -1,8 +1,8 @@
 ﻿using Utilisateurs.Domain.Entities;
 
-namespace Utilisateurs.Domain.DTOs.RoleDTOs
+namespace Utilisateurs.Application.ViewModels
 {
-    public class RoleDTO
+    public class RoleViewModel
     {
         public int Id { get; set; }
         public string Nom { get; set; }

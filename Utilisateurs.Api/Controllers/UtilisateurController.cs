@@ -1,9 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Utilisateurs.Application.Queries;
-using Utilisateurs.Application.Commands;
-using Utilisateurs.Domain.DTOs.UtilisateurDTOs;
-using Utilisateurs.Domain.Entities;
+using Utilisateurs.Application.Utilisateurs.Queries;
+using Utilisateurs.Application.Utilisateurs.Commands;
 
 namespace Utilisateurs.Api.Controllers
 {
@@ -25,10 +23,9 @@ namespace Utilisateurs.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create([FromBody] Utilisateur utilisateur)
+        public async Task<ActionResult> Create([FromBody] CreateUtilisateurCommand utilisateur)
         {
-            var command = new CreateUtilisateurCommand() { NewUtilisateur = utilisateur };
-            var result = await _mediator.Send(command);
+            var result = await _mediator.Send(utilisateur);
             return Ok(result);
         }
     }
