@@ -4,5 +4,6 @@ namespace Utilisateurs.Domain.Interfaces
 {
     public interface IRoleRepository : IGenericRepository<Role>
     {
+        // Additional Methods
     }
 }

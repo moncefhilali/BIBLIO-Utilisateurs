@@ -1,6 +1,4 @@
-﻿
-
-namespace Utilisateurs.Domain.Interfaces
+﻿namespace Utilisateurs.Domain.Interfaces
 {
     public interface IGenericRepository<T> where T : class
     {
@@ -8,7 +6,7 @@ namespace Utilisateurs.Domain.Interfaces
         Task<T> GetByIdAsync(int id);
         Task<T> PutAsync(int id, T entity);
         Task<T> PostAsync(T entity);
-        Task<T> DeleteAsync(int id);
+        Task DeleteAsync(int id);
 
     }
 }
