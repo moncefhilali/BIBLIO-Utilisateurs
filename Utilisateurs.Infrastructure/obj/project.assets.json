@@ -6165,8 +6165,7 @@
     "net7.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.15",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.15",
-      "Utilisateurs.Application >= 1.0.0",
-      "Utilisateurs.Domain >= 1.0.0"
+      "Utilisateurs.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6198,9 +6197,6 @@
           "projectReferences": {
             "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Application\\Utilisateurs.Application.csproj": {
               "projectPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Application\\Utilisateurs.Application.csproj"
-            },
-            "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Domain\\Utilisateurs.Domain.csproj": {
-              "projectPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Domain\\Utilisateurs.Domain.csproj"
             }
           }
         }

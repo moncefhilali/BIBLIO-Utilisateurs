@@ -10,8 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.15",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.15",
-          "Utilisateurs.Application": "1.0.0",
-          "Utilisateurs.Domain": "1.0.0"
+          "Utilisateurs.Application": "1.0.0"
         },
         "runtime": {
           "Utilisateurs.Infrastructure.dll": {}
