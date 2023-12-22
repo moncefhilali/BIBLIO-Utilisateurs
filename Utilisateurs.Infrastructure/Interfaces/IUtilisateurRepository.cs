@@ -1,6 +1,6 @@
 ﻿using Utilisateurs.Domain.Entities;
 
-namespace Utilisateurs.Domain.Interfaces
+namespace Utilisateurs.Infrastructure.Interfaces
 {
     public interface IUtilisateurRepository : IGenericRepository<Utilisateur>
     {

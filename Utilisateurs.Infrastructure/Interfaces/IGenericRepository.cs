@@ -1,4 +1,4 @@
-﻿namespace Utilisateurs.Domain.Interfaces
+﻿namespace Utilisateurs.Infrastructure.Interfaces
 {
     public interface IGenericRepository<T> where T : class
     {

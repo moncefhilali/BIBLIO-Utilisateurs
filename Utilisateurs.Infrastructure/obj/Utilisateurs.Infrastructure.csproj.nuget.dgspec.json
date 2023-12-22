@@ -156,6 +156,9 @@
             "projectReferences": {
               "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Application\\Utilisateurs.Application.csproj": {
                 "projectPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Application\\Utilisateurs.Application.csproj"
+              },
+              "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Domain\\Utilisateurs.Domain.csproj": {
+                "projectPath": "C:\\Users\\monce\\OneDrive\\Desktop\\Self Taught\\Bootcamps\\1- UIR Full Stack .Net-React\\.NET\\Projects\\BIBLIO\\BIBLIO.Utilisateurs\\Utilisateurs.Domain\\Utilisateurs.Domain.csproj"
               }
             }
           }
