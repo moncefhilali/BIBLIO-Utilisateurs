@@ -7,6 +7,8 @@ using Utilisateurs.Infrastructure;
 using Utilisateurs.Infrastructure.Repositories;
 using Utilisateurs.Application.Roles.Commands;
 using Utilisateurs.Application.Utilisateurs.Commands;
+using Utilisateurs.Application.UtilisateurRoles.Queries;
+using Utilisateurs.Application.UtilisateurRoles.Commands;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +17,8 @@ builder.Services.AddMediatR(typeof(GetAllUtilisateurQuery));
 builder.Services.AddMediatR(typeof(CreateUtilisateurCommand));
 builder.Services.AddMediatR(typeof(GetAllRoleQuery));
 builder.Services.AddMediatR(typeof(CreateRoleCommand));
+builder.Services.AddMediatR(typeof(GetAllUtilisateurRoleQuery));
+builder.Services.AddMediatR(typeof(CreateUtilisateurRoleCommand));
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
