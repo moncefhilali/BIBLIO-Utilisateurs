@@ -1,33 +1,11 @@
-using MediatR;
-using Utilisateurs.Application.Utilisateurs.Queries;
-using Utilisateurs.Application.Roles.Queries;
-using Utilisateurs.Domain.Interfaces;
-using Utilisateurs.Application.Mapper;
 using Utilisateurs.Infrastructure;
-using Utilisateurs.Infrastructure.Repositories;
-using Utilisateurs.Application.Roles.Commands;
-using Utilisateurs.Application.Utilisateurs.Commands;
-using Utilisateurs.Application.UtilisateurRoles.Queries;
-using Utilisateurs.Application.UtilisateurRoles.Commands;
+using Utilisateurs.Application;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddMediatR(typeof(GetAllUtilisateurQuery));
-builder.Services.AddMediatR(typeof(CreateUtilisateurCommand));
-builder.Services.AddMediatR(typeof(GetAllRoleQuery));
-builder.Services.AddMediatR(typeof(CreateRoleCommand));
-builder.Services.AddMediatR(typeof(GetAllUtilisateurRoleQuery));
-builder.Services.AddMediatR(typeof(CreateUtilisateurRoleCommand));
-
-builder.Services.AddAutoMapper(typeof(MappingProfile));
-
-builder.Services.AddScoped<DBC>();
-
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-builder.Services.AddScoped<IUtilisateurRepository, UtilisateurRepository>();
-builder.Services.AddScoped<IRoleRepository, RoleRepository>();
-builder.Services.AddScoped<IUtilisateurRoleRepository, UtilisateurRoleRepository>();
+builder.Services.AddDependecyInjectionInfrastructure();
+builder.Services.AddDependecyInjectionApplication();
 
 
 builder.Services.AddControllers();
