@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Utilisateurs.Application.Utilisateurs.Queries;
 using Utilisateurs.Application.Utilisateurs.Commands;
 
-namespace Utilisateurs.Api.Controllers.v1
+namespace Utilisateurs.Api.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
