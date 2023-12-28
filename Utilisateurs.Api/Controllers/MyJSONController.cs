@@ -1,6 +1,7 @@
 ﻿using Flurl;
 using Flurl.Http;
 using Microsoft.AspNetCore.Mvc;
+using Utilisateurs.Api.Interfaces;
 
 namespace Utilisateurs.Api.Controllers
 {
@@ -9,9 +10,11 @@ namespace Utilisateurs.Api.Controllers
     public class MyJSONController : ControllerBase
     {
         private readonly HttpClient _httpClient;
-        public MyJSONController(HttpClient httpClient)
+        private readonly IMyJSON _myJSON;
+        public MyJSONController(HttpClient httpClient, IMyJSON myJSON)
         {
             _httpClient = httpClient;
+            _myJSON = myJSON;
         }
 
         [HttpGet("HttpClient")]
@@ -30,6 +33,13 @@ namespace Utilisateurs.Api.Controllers
                 .AppendPathSegment("db")
                 .WithHeader("Accept", "application/json")
                 .GetJsonAsync<object?>();
+            return Ok(result);
+        }
+
+        [HttpGet("Refit")]
+        public async Task<IActionResult> GetRefit()
+        {
+            var result = await _myJSON.GetMyJSON();
             return Ok(result);
         }
     }

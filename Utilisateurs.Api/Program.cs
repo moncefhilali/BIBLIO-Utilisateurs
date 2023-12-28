@@ -1,5 +1,7 @@
 using Utilisateurs.Infrastructure;
 using Utilisateurs.Application;
+using Refit;
+using Utilisateurs.Api.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,8 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDependecyInjectionInfrastructure();
 builder.Services.AddDependecyInjectionApplication();
 
-// delete that later !!
 builder.Services.AddHttpClient();
+builder.Services.AddRefitClient<IMyJSON>()
+    .ConfigureHttpClient(c =>
+    {
+        c.BaseAddress = new Uri("https://my-json-server.typicode.com/moncefhilali/MyAPI/");
+    });
 
 
 builder.Services.AddControllers();
