@@ -1,6 +1,6 @@
 ﻿using Utilisateurs.Domain.Entities;
 
-namespace Utilisateurs.Application.ViewModels
+namespace Utilisateurs.Application.Utilisateurs.ViewModel
 {
     public class UtilisateurViewModel
     {

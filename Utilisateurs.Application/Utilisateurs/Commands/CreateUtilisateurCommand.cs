@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using Utilisateurs.Application.ViewModels;
+using Utilisateurs.Application.Utilisateurs.ViewModel;
 
 namespace Utilisateurs.Application.Utilisateurs.Commands
 {

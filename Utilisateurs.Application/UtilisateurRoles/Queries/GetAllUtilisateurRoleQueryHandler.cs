@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using MediatR;
-using Utilisateurs.Application.ViewModels;
+using Utilisateurs.Application.UtilisateurRoles.ViewModel;
 using Utilisateurs.Domain.Interfaces;
 
 namespace Utilisateurs.Application.UtilisateurRoles.Queries

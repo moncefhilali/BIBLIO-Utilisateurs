@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
-using Utilisateurs.Application.ViewModels;
+using Utilisateurs.Application.Roles.ViewModel;
+using Utilisateurs.Application.UtilisateurRoles.ViewModel;
+using Utilisateurs.Application.Utilisateurs.ViewModel;
 using Utilisateurs.Domain.Entities;
 
 namespace Utilisateurs.Application.Mapper

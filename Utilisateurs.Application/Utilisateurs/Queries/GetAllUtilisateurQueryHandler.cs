@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using Utilisateurs.Domain.Interfaces;
-using Utilisateurs.Application.ViewModels;
+using Utilisateurs.Application.Utilisateurs.ViewModel;
 
 namespace Utilisateurs.Application.Utilisateurs.Queries
 {

@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using Utilisateurs.Application.ViewModels;
+using Utilisateurs.Application.UtilisateurRoles.ViewModel;
 
 namespace Utilisateurs.Application.UtilisateurRoles.Queries
 {

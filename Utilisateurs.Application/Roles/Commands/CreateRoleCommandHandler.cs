@@ -3,7 +3,7 @@ using MediatR;
 using Utilisateurs.Application.Roles.Commands;
 using Utilisateurs.Domain.Entities;
 using Utilisateurs.Domain.Interfaces;
-using Utilisateurs.Application.ViewModels;
+using Utilisateurs.Application.Roles.ViewModel;
 
 namespace Utilisateurs.Application.Roles.Commands
 {

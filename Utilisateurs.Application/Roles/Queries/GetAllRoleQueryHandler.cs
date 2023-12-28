@@ -2,7 +2,7 @@
 using MediatR;
 using Utilisateurs.Domain.Interfaces;
 using Utilisateurs.Application.Roles.Queries;
-using Utilisateurs.Application.ViewModels;
+using Utilisateurs.Application.Roles.ViewModel;
 
 namespace Utilisateurs.Application.Roles.Queries
 {
