@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using Utilisateurs.Application.UtilisateurRoles.Queries;
 using Utilisateurs.Application.UtilisateurRoles.Commands;
 
-namespace Utilisateurs.Api.Controllers
+namespace Utilisateurs.Api.Controllers.v1
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class UtilisateurRoleController : ControllerBase
     {
