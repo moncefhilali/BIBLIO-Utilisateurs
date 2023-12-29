@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilisateurs.Infrastructure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilisateurs.Application", "Utilisateurs.Application\Utilisateurs.Application.csproj", "{ABD0F6F8-EAA7-460E-83D1-EF991A549159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilisateurs.Api", "Utilisateurs.Api\Utilisateurs.Api.csproj", "{F2DA284D-329A-4098-80E9-C22C0FA7EDD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilisateurs.Api", "Utilisateurs.Api\Utilisateurs.Api.csproj", "{F2DA284D-329A-4098-80E9-C22C0FA7EDD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilisateurs.Ocelot", "Utilisateurs.Ocelot\Utilisateurs.Ocelot.csproj", "{AF9A7EFE-B6EA-4424-9E56-136EFE0F7125}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F2DA284D-329A-4098-80E9-C22C0FA7EDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2DA284D-329A-4098-80E9-C22C0FA7EDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2DA284D-329A-4098-80E9-C22C0FA7EDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9A7EFE-B6EA-4424-9E56-136EFE0F7125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9A7EFE-B6EA-4424-9E56-136EFE0F7125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9A7EFE-B6EA-4424-9E56-136EFE0F7125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9A7EFE-B6EA-4424-9E56-136EFE0F7125}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
