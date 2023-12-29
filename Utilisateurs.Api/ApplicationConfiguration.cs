@@ -1,5 +1,6 @@
 ﻿using Polly;
 using Refit;
+using Utilisateurs.Api.Health;
 using Utilisateurs.Api.Interfaces;
 
 namespace Utilisateurs.Api
@@ -8,6 +9,11 @@ namespace Utilisateurs.Api
     {
         public static IServiceCollection AddDependecyInjectionApi(this IServiceCollection services)
         {
+            // Health Check
+            services.AddHealthChecks()
+                .AddCheck<DatabaseHealthCheck>("Database")
+                .AddCheck<MyJSONHealthCheck>("MyJSON API");
+
             // HttpClient
             services.AddHttpClient();
 
