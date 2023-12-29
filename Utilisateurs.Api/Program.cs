@@ -1,30 +1,13 @@
 using Utilisateurs.Infrastructure;
 using Utilisateurs.Application;
-using Refit;
-using Utilisateurs.Api.Interfaces;
-using Polly;
+using Utilisateurs.Api;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDependecyInjectionInfrastructure();
 builder.Services.AddDependecyInjectionApplication();
-
-// HttpClient
-builder.Services.AddHttpClient();
-
-// Refit
-builder.Services.AddRefitClient<IMyJSON>()
-    .ConfigureHttpClient(c =>
-    {
-        c.BaseAddress = new Uri("https://my-json-server.typicode.com/moncefhilali/MyAPI/");
-    });
-
-// Polly
-var retryPolicy = Policy
-       .Handle<Exception>()
-       .RetryAsync(3);
-builder.Services.AddSingleton(retryPolicy);
+builder.Services.AddDependecyInjectionApi();
 
 
 builder.Services.AddControllers();
