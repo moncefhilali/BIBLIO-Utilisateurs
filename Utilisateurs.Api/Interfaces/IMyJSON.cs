@@ -1,5 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
-using Refit;
+﻿using Refit;
+
 namespace Utilisateurs.Api.Interfaces
 {
     public interface IMyJSON
