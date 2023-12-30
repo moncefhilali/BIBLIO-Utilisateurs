@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 
-namespace Utilisateurs.Api.Controllers
+namespace Utilisateurs.Api.Controllers.v1
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
+    [EnableRateLimiting("FixedWindowPolicy")]
     public class HealthController : ControllerBase
     {
         private readonly HttpClient _httpClient;

@@ -3,10 +3,11 @@ using Microsoft.AspNetCore.Mvc;
 using Utilisateurs.Application.Roles.Queries;
 using Utilisateurs.Application.Roles.Commands;
 
-namespace Utilisateurs.Api.Controllers
+namespace Utilisateurs.Api.Controllers.v1
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
+    [ApiVersion("1.0")]
     public class RoleController : ControllerBase
     {
         private readonly IMediator _mediator;

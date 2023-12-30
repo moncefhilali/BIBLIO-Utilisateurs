@@ -34,6 +34,9 @@ app.MapHealthChecks("/_health", new HealthCheckOptions
     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
 });
 
+// Rate Limiter
+app.UseRateLimiter();
+
 app.UseAuthorization();
 
 app.MapControllers();

@@ -1,14 +1,14 @@
 ﻿using Flurl;
 using Flurl.Http;
 using Microsoft.AspNetCore.Mvc;
-using Polly;
 using Polly.Retry;
 using Utilisateurs.Api.Interfaces;
 
-namespace Utilisateurs.Api.Controllers
+namespace Utilisateurs.Api.Controllers.v1
 {
     [Route("api/[controller]")]
     [ApiController]
+    [ApiVersion("1.0", Deprecated = true)]
     public class MyJSONController : ControllerBase
     {
         private readonly HttpClient _httpClient;
@@ -25,7 +25,7 @@ namespace Utilisateurs.Api.Controllers
         public async Task<IActionResult> GetHttpClient()
         {
             var url = "https://my-json-server.typicode.com/moncefhilali/MyAPI/";
-            var result = await _httpClient.GetFromJsonAsync<object?>(url+"db");
+            var result = await _httpClient.GetFromJsonAsync<object?>(url + "db");
             return Ok(result);
         }
 
@@ -41,13 +41,6 @@ namespace Utilisateurs.Api.Controllers
         public async Task<IActionResult> GetRefit()
         {
             var result = await _myJSON.GetMyJSON();
-            return Ok(result);
-        }
-
-        [HttpGet("Refit/Polly")]
-        public async Task<IActionResult> GetRefitWithPolly()
-        {
-            var result = await _retryPolicy.ExecuteAsync(_myJSON.GetMyJSON);
             return Ok(result);
         }
     }
