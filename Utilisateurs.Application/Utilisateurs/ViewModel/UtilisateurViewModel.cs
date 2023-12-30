@@ -12,6 +12,5 @@ namespace Utilisateurs.Application.Utilisateurs.ViewModel
         public string Rue { get; set; }
         public string Quartier { get; set; }
         public bool? JobInTech { get; set; }
-        public virtual ICollection<UtilisateurRole> UtilisateurRole { get; set; }
     }
 }

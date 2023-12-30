@@ -6,6 +6,5 @@ namespace Utilisateurs.Application.Roles.ViewModel
     {
         public int Id { get; set; }
         public string Nom { get; set; }
-        public virtual ICollection<UtilisateurRole> UtilisateurRole { get; set; }
     }
 }
