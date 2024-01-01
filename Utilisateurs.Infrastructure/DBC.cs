@@ -30,45 +30,5 @@ namespace Utilisateurs.Infrastructure
                 optionsBuilder.UseSqlServer("Data Source=DESKTOP-3SA4E25\\SQLEXPRESS;Initial Catalog=JIT_BIBLIO;Persist Security Info=True;User ID=sa;Password=1234");
             }
         }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Role>(entity =>
-            {
-                entity.Property(e => e.Nom).IsUnicode(false);
-            });
-
-            modelBuilder.Entity<Utilisateur>(entity =>
-            {
-                entity.Property(e => e.Ecole).IsUnicode(false);
-
-                entity.Property(e => e.Email).IsUnicode(false);
-
-                entity.Property(e => e.Nom).IsUnicode(false);
-
-                entity.Property(e => e.Quartier).IsUnicode(false);
-
-                entity.Property(e => e.Rue).IsUnicode(false);
-
-                entity.Property(e => e.Ville).IsUnicode(false);
-            });
-
-            modelBuilder.Entity<UtilisateurRole>(entity =>
-            {
-                entity.HasOne(d => d.IdRoleNavigation)
-                    .WithMany(p => p.UtilisateurRole)
-                    .HasForeignKey(d => d.IdRole)
-                    .HasConstraintName("fk_UR_Role");
-
-                entity.HasOne(d => d.IdUtilisateurNavigation)
-                    .WithMany(p => p.UtilisateurRole)
-                    .HasForeignKey(d => d.IdUtilisateur)
-                    .HasConstraintName("fk_UR_Utilisateur");
-            });
-
-            OnModelCreatingPartial(modelBuilder);
-        }
-
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }
 }
